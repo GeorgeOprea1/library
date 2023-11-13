@@ -38,7 +38,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-#newBtn {
+#newBookBtn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,7 +50,7 @@ h1 {
   cursor: pointer;
 }
 
-#newBtn:hover {
+#newBookBtn:hover {
   filter: brightness(85%);
 }
 
@@ -94,6 +94,14 @@ input#pages {
 
 input[type="checkbox"] {
   transform: scale(2);
+}
+
+#textInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
 }
 #popUp {
   display: none;

@@ -1,7 +1,7 @@
 const addBtn = document.querySelector("#addBtn");
 addBtn.addEventListener("click", addBookToLibrary);
 
-const newBookBtn = document.querySelector("#newBtn");
+const newBookBtn = document.querySelector("#newBookBtn");
 newBookBtn.addEventListener("click", () => (popUpForm.style.display = "block"));
 
 const popUpForm = document.getElementById("popUp");
