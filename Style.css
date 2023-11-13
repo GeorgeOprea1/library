@@ -78,12 +78,14 @@ input#title {
   width: 95%;
   font-size: 20px;
   border: solid 3px black;
+  text-transform: capitalize;
 }
 input#author {
   height: 40%;
   width: 95%;
   font-size: 20px;
   border: solid 3px black;
+  text-transform: capitalize;
 }
 input#pages {
   height: 40%;

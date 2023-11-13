@@ -53,11 +53,13 @@ function createBook(item) {
   bookDiv.classList.add("book");
   bookDiv.setAttribute("id", myLibrary.indexOf(item));
 
-  titleDiv.textContent = item.title;
+  titleDiv.textContent =
+    item.title.charAt(0).toUpperCase() + item.title.slice(1);
   titleDiv.classList.add("title");
   bookDiv.appendChild(titleDiv);
 
-  authDiv.textContent = item.author;
+  authDiv.textContent =
+    item.author.charAt(0).toUpperCase() + item.author.slice(1);
   authDiv.classList.add("author");
   bookDiv.appendChild(authDiv);
 
