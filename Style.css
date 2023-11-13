@@ -48,6 +48,7 @@ h1 {
   border-radius: 10px;
   border: solid 3px black;
   cursor: pointer;
+  background-color: fff;
 }
 
 #newBookBtn:hover {
@@ -68,6 +69,7 @@ h1 {
   border-radius: 10px;
   border: solid 3px black;
   cursor: pointer;
+  background-color: #fff;
 }
 
 #addBtn:hover {
