@@ -2,7 +2,7 @@
 
 ![Library interface image](./icons/Library.avif)
 
-A small Library app, created with HTML, CSS and JavaScript. The data is stored in `localStorage`. The project is from The Odin Project curriculum.
+A small [Library](https://georgeoprea1.github.io/library/) app, created with HTML, CSS and JavaScript. The data is stored in `localStorage`. The project is from The Odin Project curriculum.
 
 ## Features
 
