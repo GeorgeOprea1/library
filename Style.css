@@ -53,14 +53,31 @@ h1 {
   background-color: fff;
 }
 
+#delete {
+  background-color: #ff0000;
+  color: #fefefe;
+}
+
 #newBookBtn:hover {
   filter: brightness(85%);
+}
+
+#delete:hover {
+  filter: brightness(90%);
 }
 
 #Library-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+#newBookBtn:active {
+  background-color: antiquewhite;
+}
+
+#delete:active {
+  background-color: #ff6a0d;
 }
 
 #addBtn {
