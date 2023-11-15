@@ -1,13 +1,13 @@
 ## [Library](https://georgeoprea1.github.io/library/)
 
-![Library interface image](./icons/Library.avif)
+![Library interface image](./icons/Library.jpg)
 
 A small [Library](https://georgeoprea1.github.io/library/) app, created with HTML, CSS and JavaScript. The data is stored in `localStorage`. The project is from The Odin Project curriculum.
 
 ## Features
 
 - Every book is saved to `localStorage`.
-- You can add and delete a particular book.
+- You can add and delete a particular book or all the books at once.
 - You can change book status(read/ not read) anytime .
 - Responsive design.
 

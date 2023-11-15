@@ -1,4 +1,12 @@
 const addBtn = document.querySelector("#addBtn");
+const deleteBtn = document.getElementById("delete");
+
+deleteBtn.addEventListener("click", function () {
+  myLibrary = [];
+  setData();
+  render();
+});
+
 addBtn.addEventListener("click", addBookToLibrary);
 
 const newBookBtn = document.querySelector("#newBookBtn");
