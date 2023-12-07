@@ -8,7 +8,9 @@ h1 {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 55px;
 }
-
+button {
+  cursor: pointer;
+}
 .footer {
   width: 100vw;
   display: flex;
@@ -211,6 +213,10 @@ button:focus {
   border: solid 3px black;
 }
 
+.readBtn:hover {
+  filter: brightness(90%);
+}
+
 #removeBtn {
   font-size: 20px;
   height: 35px;
@@ -218,6 +224,10 @@ button:focus {
   border-radius: 10px;
   border: solid 3px black;
   background-color: #ff0000;
+}
+
+#removeBtn:hover {
+  filter: brightness(90%);
 }
 
 @media (max-width: 500px) {
